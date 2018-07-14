@@ -9,7 +9,7 @@
     "clean": "rimraf dist",
     "dev": "yarn clean && yarn webpack-dev-server --env.mode development --hot",
     "dev:compress": "yarn dev --env.presets compress",
-    "prod": "yarn clean && yarn webpack --env.mode production",
+    "prod": "yarn clean && yarn webpack -p --env.mode production",
     "prod:analyze": "yarn prod --env.presets analyze",
     "prod:compress": "yarn prod --env.presets compress",
     "test": "jest",
@@ -18,7 +18,6 @@
   },
   "dependencies": {
     "react": "^16.4.1",
-    "react-art": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-native-web": "^0.8.8",
     "react-router-dom": "^4.3.1"
@@ -27,6 +26,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-react-native-web": "^0.8.8",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",

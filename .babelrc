@@ -2,7 +2,7 @@
   "presets": [
     "env", "react"
   ],
-  "plugins": ["transform-class-properties",
+  "plugins": ["react-native-web", "transform-class-properties",
     [
       "module-resolver",
       {
