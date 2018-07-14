@@ -13,7 +13,6 @@
     "prod:analyze": "yarn prod --env.presets analyze",
     "prod:compress": "yarn prod --env.presets compress",
     "test": "jest",
-    "test:cover": "yarn test --coverage",
     "test:dev": "yarn test --watch --coverage"
   },
   "dependencies": {
