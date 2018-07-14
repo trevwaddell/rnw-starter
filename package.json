@@ -8,7 +8,6 @@
     "webpack-dev-server": "webpack-dev-server",
     "clean": "rimraf dist",
     "dev": "yarn clean && yarn webpack-dev-server --env.mode development --hot",
-    "dev:compress": "yarn dev --env.presets compress",
     "prod": "yarn clean && yarn webpack --env.mode production",
     "prod:analyze": "yarn prod --env.presets analyze",
     "prod:compress": "yarn prod --env.presets compress",
@@ -19,8 +18,7 @@
     "react": "^16.4.1",
     "react-art": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-native-web": "^0.8.8",
-    "react-router-dom": "^4.3.1"
+    "react-native-web": "^0.8.8"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
