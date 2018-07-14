@@ -9,7 +9,7 @@
     "clean": "rimraf dist",
     "dev": "yarn clean && yarn webpack-dev-server --env.mode development --hot",
     "dev:compress": "yarn dev --env.presets compress",
-    "prod": "yarn clean && yarn webpack -p --env.mode production",
+    "prod": "yarn clean && yarn webpack --env.mode production",
     "prod:analyze": "yarn prod --env.presets analyze",
     "prod:compress": "yarn prod --env.presets compress",
     "test": "jest",
