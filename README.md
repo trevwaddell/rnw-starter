@@ -7,7 +7,7 @@
 After cloning this repository go to the root of the project folder and install the dependancies.
 
 ```
-$ git clone []
+$ git clone https://github.com/trevwaddell/rnw-starter.git
 
 $ cd rnw-starter
 
@@ -22,7 +22,7 @@ Once you're done installing the dependencies, you can start the development serv
 $ yarn dev # or npm run dev
 ```
 
-Once the development server starts, you can navigate to http://localhost:8080 in your browser
+Once the development server starts, you can navigate to http://localhost:8080 in your browser.
 
 ### Development
 
