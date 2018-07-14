@@ -2,8 +2,6 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
 class App extends React.Component {
-  state = {};
-
   render() {
     return (
       <View style={styles.container}>
