@@ -1,1 +1,6 @@
-module.exports = () => ({});
+module.exports = () => ({
+  devServer: {
+    open: true,
+    overlay: true
+  }
+});
