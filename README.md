@@ -34,4 +34,4 @@ Here are docs for [React Native for Web](https://github.com/necolas/react-native
 
 ### Resources
 
-The webpack configuration for this repo was put together after taking a [Webpack Workshop](https://frontendmasters.com/courses/webpack-fundamentals/)).
+The webpack configuration for this repo was put together after taking a [Webpack Workshop](https://frontendmasters.com/courses/webpack-fundamentals/).
