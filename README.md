@@ -1,4 +1,6 @@
-# React Native for Web Stater
+# React Native for Web Starter
+
+This boilerplate will help you get up an running with a React Native for Web application. 
 
 ## Getting Started
 
@@ -27,3 +29,5 @@ Once the development server starts, you can navigate to http://localhost:8080 in
 ### Development
 
 ## React Native Documentation
+
+Here are docs for [React Native for Web](https://github.com/necolas/react-native-web) and [React Native](https://facebook.github.io/react-native/)
