@@ -1,13 +1,14 @@
-import React from "react";
-import { View, StyleSheet } from "react-native";
+//@flow
+import React, { Component } from "react";
+import { Text, View, StyleSheet } from "react-native";
 
-import Header from "./Header";
+type Props = {};
 
-class App extends React.Component {
+class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Header text="React Native Starter" />
+        <Text>React Native Starter</Text>
       </View>
     );
   }
