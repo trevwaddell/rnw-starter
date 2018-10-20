@@ -1,11 +1,13 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, StyleSheet } from "react-native";
+
+import Header from "./Header";
 
 class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>React Native Web Starter</Text>
+        <Header text="React Native Starter" />
       </View>
     );
   }
