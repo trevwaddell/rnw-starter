@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>React Native Starter</Text>
+        <Text>React Native Web Starter</Text>
       </View>
     );
   }
