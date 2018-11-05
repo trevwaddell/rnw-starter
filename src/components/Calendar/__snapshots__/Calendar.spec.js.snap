@@ -1,0 +1,1549 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Calendar /> renders as expected 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Calendar
+    date={2018-10-21T04:00:00.000Z}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Header
+          month={9}
+          onNextPress={[Function]}
+          onPrevPress={[Function]}
+          year={2018}
+        />,
+        Array [
+          <View
+            style={37}
+          >
+            <Day
+              day={2018-09-30T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-01T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-02T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-03T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-04T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-05T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-06T04:00:00.000Z}
+            />
+          </View>,
+          <View
+            style={37}
+          >
+            <Day
+              day={2018-10-07T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-08T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-09T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-10T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-11T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-12T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-13T04:00:00.000Z}
+            />
+          </View>,
+          <View
+            style={37}
+          >
+            <Day
+              day={2018-10-14T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-15T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-16T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-17T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-18T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-19T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-20T04:00:00.000Z}
+            />
+          </View>,
+          <View
+            style={37}
+          >
+            <Day
+              day={2018-10-21T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-22T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-23T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-24T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-25T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-26T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-27T04:00:00.000Z}
+            />
+          </View>,
+          <View
+            style={37}
+          >
+            <Day
+              day={2018-10-28T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-29T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-30T04:00:00.000Z}
+            />
+            <Day
+              day={2018-10-31T04:00:00.000Z}
+            />
+            <Day
+              day={2018-11-01T04:00:00.000Z}
+            />
+            <Day
+              day={2018-11-02T04:00:00.000Z}
+            />
+            <Day
+              day={2018-11-03T04:00:00.000Z}
+            />
+          </View>,
+        ],
+      ],
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "month": 9,
+          "onNextPress": [Function],
+          "onPrevPress": [Function],
+          "year": 2018,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "Sun Sep 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Mon Oct 01 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Tue Oct 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Wed Oct 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Thu Oct 04 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Fri Oct 05 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Sat Oct 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Day
+              day={2018-09-30T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-01T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-02T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-03T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-04T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-05T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-06T04:00:00.000Z}
+            />,
+          ],
+          "style": 37,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Sun Sep 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-09-30T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Mon Oct 01 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-01T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Tue Oct 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-02T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Wed Oct 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-03T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Thu Oct 04 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-04T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Fri Oct 05 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-05T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Sat Oct 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-06T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "Sun Oct 07 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Mon Oct 08 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Tue Oct 09 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Wed Oct 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Thu Oct 11 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Fri Oct 12 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Sat Oct 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Day
+              day={2018-10-07T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-08T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-09T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-10T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-11T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-12T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-13T04:00:00.000Z}
+            />,
+          ],
+          "style": 37,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Sun Oct 07 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-07T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Mon Oct 08 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-08T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Tue Oct 09 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-09T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Wed Oct 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-10T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Thu Oct 11 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-11T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Fri Oct 12 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-12T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Sat Oct 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-13T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "Sun Oct 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Mon Oct 15 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Tue Oct 16 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Wed Oct 17 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Thu Oct 18 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Fri Oct 19 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Sat Oct 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Day
+              day={2018-10-14T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-15T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-16T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-17T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-18T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-19T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-20T04:00:00.000Z}
+            />,
+          ],
+          "style": 37,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Sun Oct 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-14T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Mon Oct 15 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-15T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Tue Oct 16 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-16T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Wed Oct 17 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-17T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Thu Oct 18 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-18T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Fri Oct 19 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-19T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Sat Oct 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-20T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "Sun Oct 21 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Mon Oct 22 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Tue Oct 23 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Wed Oct 24 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Thu Oct 25 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Fri Oct 26 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Sat Oct 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Day
+              day={2018-10-21T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-22T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-23T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-24T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-25T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-26T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-27T04:00:00.000Z}
+            />,
+          ],
+          "style": 37,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Sun Oct 21 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-21T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Mon Oct 22 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-22T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Tue Oct 23 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-23T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Wed Oct 24 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-24T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Thu Oct 25 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-25T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Fri Oct 26 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-26T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Sat Oct 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-27T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "Sun Oct 28 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Mon Oct 29 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Tue Oct 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Wed Oct 31 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Thu Nov 01 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Fri Nov 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Sat Nov 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Day
+              day={2018-10-28T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-29T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-30T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-10-31T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-11-01T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-11-02T04:00:00.000Z}
+            />,
+            <Day
+              day={2018-11-03T04:00:00.000Z}
+            />,
+          ],
+          "style": 37,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Sun Oct 28 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-28T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Mon Oct 29 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-29T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Tue Oct 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-30T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Wed Oct 31 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-10-31T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Thu Nov 01 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-11-01T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Fri Nov 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-11-02T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Sat Nov 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+            "nodeType": "class",
+            "props": Object {
+              "date": undefined,
+              "day": 2018-11-03T04:00:00.000Z,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Header
+            month={9}
+            onNextPress={[Function]}
+            onPrevPress={[Function]}
+            year={2018}
+          />,
+          Array [
+            <View
+              style={37}
+            >
+              <Day
+                day={2018-09-30T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-01T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-02T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-03T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-04T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-05T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-06T04:00:00.000Z}
+              />
+            </View>,
+            <View
+              style={37}
+            >
+              <Day
+                day={2018-10-07T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-08T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-09T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-10T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-11T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-12T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-13T04:00:00.000Z}
+              />
+            </View>,
+            <View
+              style={37}
+            >
+              <Day
+                day={2018-10-14T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-15T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-16T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-17T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-18T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-19T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-20T04:00:00.000Z}
+              />
+            </View>,
+            <View
+              style={37}
+            >
+              <Day
+                day={2018-10-21T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-22T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-23T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-24T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-25T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-26T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-27T04:00:00.000Z}
+              />
+            </View>,
+            <View
+              style={37}
+            >
+              <Day
+                day={2018-10-28T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-29T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-30T04:00:00.000Z}
+              />
+              <Day
+                day={2018-10-31T04:00:00.000Z}
+              />
+              <Day
+                day={2018-11-01T04:00:00.000Z}
+              />
+              <Day
+                day={2018-11-02T04:00:00.000Z}
+              />
+              <Day
+                day={2018-11-03T04:00:00.000Z}
+              />
+            </View>,
+          ],
+        ],
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "month": 9,
+            "onNextPress": [Function],
+            "onPrevPress": [Function],
+            "year": 2018,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Sun Sep 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Mon Oct 01 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Tue Oct 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Wed Oct 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Thu Oct 04 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Fri Oct 05 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Sat Oct 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Day
+                day={2018-09-30T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-01T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-02T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-03T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-04T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-05T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-06T04:00:00.000Z}
+              />,
+            ],
+            "style": 37,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Sun Sep 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-09-30T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Mon Oct 01 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-01T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Tue Oct 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-02T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Wed Oct 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-03T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Thu Oct 04 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-04T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Fri Oct 05 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-05T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Sat Oct 06 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-06T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Sun Oct 07 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Mon Oct 08 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Tue Oct 09 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Wed Oct 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Thu Oct 11 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Fri Oct 12 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Sat Oct 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Day
+                day={2018-10-07T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-08T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-09T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-10T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-11T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-12T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-13T04:00:00.000Z}
+              />,
+            ],
+            "style": 37,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Sun Oct 07 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-07T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Mon Oct 08 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-08T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Tue Oct 09 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-09T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Wed Oct 10 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-10T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Thu Oct 11 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-11T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Fri Oct 12 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-12T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Sat Oct 13 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-13T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Sun Oct 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Mon Oct 15 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Tue Oct 16 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Wed Oct 17 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Thu Oct 18 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Fri Oct 19 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Sat Oct 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Day
+                day={2018-10-14T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-15T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-16T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-17T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-18T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-19T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-20T04:00:00.000Z}
+              />,
+            ],
+            "style": 37,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Sun Oct 14 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-14T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Mon Oct 15 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-15T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Tue Oct 16 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-16T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Wed Oct 17 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-17T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Thu Oct 18 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-18T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Fri Oct 19 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-19T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Sat Oct 20 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-20T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Sun Oct 21 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Mon Oct 22 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Tue Oct 23 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Wed Oct 24 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Thu Oct 25 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Fri Oct 26 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Sat Oct 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Day
+                day={2018-10-21T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-22T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-23T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-24T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-25T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-26T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-27T04:00:00.000Z}
+              />,
+            ],
+            "style": 37,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Sun Oct 21 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-21T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Mon Oct 22 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-22T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Tue Oct 23 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-23T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Wed Oct 24 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-24T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Thu Oct 25 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-25T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Fri Oct 26 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-26T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Sat Oct 27 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-27T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "Sun Oct 28 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Mon Oct 29 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Tue Oct 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Wed Oct 31 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Thu Nov 01 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Fri Nov 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time),Sat Nov 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Day
+                day={2018-10-28T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-29T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-30T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-10-31T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-11-01T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-11-02T04:00:00.000Z}
+              />,
+              <Day
+                day={2018-11-03T04:00:00.000Z}
+              />,
+            ],
+            "style": 37,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Sun Oct 28 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-28T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Mon Oct 29 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-29T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Tue Oct 30 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-30T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Wed Oct 31 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-10-31T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Thu Nov 01 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-11-01T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Fri Nov 02 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-11-02T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Sat Nov 03 2018 00:00:00 GMT-0400 (Eastern Daylight Time)",
+              "nodeType": "class",
+              "props": Object {
+                "date": undefined,
+                "day": 2018-11-03T04:00:00.000Z,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
