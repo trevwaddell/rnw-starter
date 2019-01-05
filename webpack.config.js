@@ -24,6 +24,16 @@ module.exports = ({ mode, presets } = { mode: "production", presets: [] }) => {
                 cacheDirectory: true
               }
             }
+          },
+          {
+            test: /\.(graphql|gql)$/,
+            exclude: /node_modules/,
+            use: {
+              loader: "gq-loader",
+              options: {
+                url: "http://localhost:9001/graphql"
+              }
+            }
           }
         ]
       },
