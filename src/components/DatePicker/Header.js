@@ -22,13 +22,23 @@ class Header extends Component {
     return (
       <Fragment>
         <View style={styles.header}>
-          <Arrow symbol={<ArrowLeft />} onPress={onPrevPress} />
+          <Arrow
+            symbol={
+              <span style={{ fontSize: 30, fontWeight: "bold" }}>&#8592;</span>
+            }
+            onPress={onPrevPress}
+          />
           <View style={styles.monthYear}>
             <Text style={styles.month}>{MONTHS[month]}</Text>
             <Text>&nbsp;</Text>
             <Text style={styles.year}>{year}</Text>
           </View>
-          <Arrow symbol={<ArrowRight />} onPress={onNextPress} />
+          <Arrow
+            symbol={
+              <span style={{ fontSize: 30, fontWeight: "bold" }}>&#8594;</span>
+            }
+            onPress={onNextPress}
+          />
         </View>
         <View style={styles.week}>
           {WEEKDAYS.map(day => (
@@ -55,9 +65,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center"
   },
+  arrowText: {},
   monthYear: {
     flexDirection: "row",
     flex: 5,
+    alignItems: "center",
     justifyContent: "center"
   },
   month: { fontWeight: "bold", fontSize: 20 },
