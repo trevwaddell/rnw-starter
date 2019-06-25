@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import { Text, View, StyleSheet } from "react-native";
 
+import DatePicker from "./DatePicker";
+
 class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>React Native Starter</Text>
+        <DatePicker />
       </View>
     );
   }

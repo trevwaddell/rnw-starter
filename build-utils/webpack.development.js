@@ -1,6 +1,7 @@
 module.exports = () => ({
   devServer: {
     open: true,
-    overlay: true
+    overlay: true,
+    port: 9001
   }
 });

@@ -5,10 +5,10 @@ import { ArrowLeft, ArrowRight } from "./icons";
 
 import { MONTHS, WEEKDAYS } from "./constants";
 
-const Arrow = ({ symbol }) => (
-  <View style={styles.arrow}>
-    <Text style={styles.arrowText}>{symbol}</Text>
-  </View>
+const Arrow = ({ symbol, onPress }) => (
+  <TouchableOpacity onPress={onPress} style={styles.arrow}>
+    {symbol}
+  </TouchableOpacity>
 );
 
 class Header extends Component {
@@ -22,17 +22,13 @@ class Header extends Component {
     return (
       <Fragment>
         <View style={styles.header}>
-          <TouchableOpacity onPress={onPrevPress}>
-            <Arrow symbol={<ArrowLeft />} />
-          </TouchableOpacity>
+          <Arrow symbol={<ArrowLeft />} onPress={onPrevPress} />
           <View style={styles.monthYear}>
             <Text style={styles.month}>{MONTHS[month]}</Text>
             <Text>&nbsp;</Text>
             <Text style={styles.year}>{year}</Text>
           </View>
-          <TouchableOpacity onPress={onNextPress}>
-            <Arrow symbol={<ArrowRight />} />
-          </TouchableOpacity>
+          <Arrow symbol={<ArrowRight />} onPress={onNextPress} />
         </View>
         <View style={styles.week}>
           {WEEKDAYS.map(day => (
@@ -54,15 +50,14 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     marginTop: 5
   },
-  arrow: { flexGrow: 1, alignItems: "center" },
-  arrowText: {
-    color: "rgb(249,99,2)",
-    fontWeight: "bold",
-    fontSize: 20
+  arrow: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center"
   },
   monthYear: {
     flexDirection: "row",
-    flexGrow: 5,
+    flex: 5,
     justifyContent: "center"
   },
   month: { fontWeight: "bold", fontSize: 20 },

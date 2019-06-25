@@ -8,11 +8,10 @@ import Week from "./Week";
 import {
   getCalendarWeeks,
   getMonthFromDate,
-  getYearFromDate,
-  changeDate
+  getYearFromDate
 } from "./dateUtils";
 
-class Calendar extends Component {
+class DatePicker extends Component {
   static Week = Week;
 
   static propTypes = {
@@ -83,4 +82,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Calendar;
+export default DatePicker;

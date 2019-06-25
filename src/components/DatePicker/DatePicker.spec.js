@@ -1,9 +1,9 @@
 import React from "react";
 import { shallow } from "enzyme";
-import Calendar from "./index";
+import DatePicker from "./index";
 import { ArrowLeft, ArrowRight } from "./icons";
 
-describe("<Calendar />", () => {
+describe("<DatePicker />", () => {
   let wrapper;
   let props;
 
@@ -11,7 +11,7 @@ describe("<Calendar />", () => {
     props = {
       date: new Date("10/21/2018")
     };
-    wrapper = shallow(<Calendar {...props} />);
+    wrapper = shallow(<DatePicker {...props} />);
   });
 
   it("renders as expected", () => {
