@@ -1,0 +1,7 @@
+build/
+
+# dependencies
+node_modules/
+
+# dot files
+.git/
