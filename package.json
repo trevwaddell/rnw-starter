@@ -9,8 +9,8 @@
     "clean": "rimraf dist",
     "dev": "yarn clean && yarn webpack-serve",
     "dev:ts": "yarn dev --env.presets typescript",
-    "prod": "yarn clean && yarn webpack --env.mode production",
-    "prod:analyze": "yarn prod --env.presets analyze",
+    "prod": "yarn clean && webpack --mode production",
+    "prod:analyze": "yarn prod --env presets=analyze",
     "prod:compress": "yarn prod --env.presets compress",
     "test": "jest",
     "test:dev": "yarn test --watch --coverage"
@@ -18,10 +18,10 @@
   "dependencies": {
     "@types/react": "^16.7.18",
     "@types/react-dom": "^16.0.11",
-    "react": "^16.13.1",
+    "react": "^17.0.2",
     "react-art": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-native-web": "^0.12.2"
+    "react-dom": "^17.0.2",
+    "react-native-web": "^0.17.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
@@ -34,7 +34,7 @@
     "babel-jest": "^23.4.0",
     "babel-loader": "^8.0.0",
     "babel-plugin-module-resolver": "^3.1.1",
-    "babel-plugin-react-native-web": "^0.8.8",
+    "babel-plugin-react-native-web": "^0.17.1",
     "compression-webpack-plugin": "^1.1.11",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
