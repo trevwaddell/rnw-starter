@@ -5,9 +5,9 @@
   "license": "MIT",
   "scripts": {
     "webpack": "webpack",
-    "webpack-dev-server": "webpack-dev-server",
+    "webpack-serve": "webpack serve --config ./webpack.config.js --mode development",
     "clean": "rimraf dist",
-    "dev": "yarn clean && yarn webpack-dev-server --env.mode development --hot",
+    "dev": "yarn clean && yarn webpack-serve",
     "dev:ts": "yarn dev --env.presets typescript",
     "prod": "yarn clean && yarn webpack --env.mode production",
     "prod:analyze": "yarn prod --env.presets analyze",
@@ -44,15 +44,15 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.10.0",
     "gq-loader": "^0.1.5",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.3.2",
     "jest": "^23.4.1",
     "rimraf": "^2.6.2",
     "ts-loader": "^5.3.2",
     "typescript": "^3.2.2",
-    "webpack": "^4.16.0",
+    "webpack": "^5.45.1",
     "webpack-bundle-analyzer": "^3.3.2",
-    "webpack-cli": "^3.0.8",
-    "webpack-dev-server": "^3.1.4",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^4.1.3"
   }
 }

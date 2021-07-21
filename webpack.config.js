@@ -3,10 +3,14 @@ const webpack = require("webpack");
 const webpackMerge = require("webpack-merge");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
-const modeConfig = env => require(`./build-utils/webpack.${env}`)(env);
+const modeConfig = (env) => require(`./build-utils/webpack.${env}`)(env);
 const presetsConfig = require("./build-utils/loadPresets");
 
-module.exports = ({ mode, presets } = { mode: "production", presets: [] }) => {
+module.exports = (
+  _env,
+  { mode, presets } = { mode: "production", presets: [] }
+) => {
+  console.log({ mode, presets });
   return webpackMerge(
     {
       mode,
@@ -16,14 +20,14 @@ module.exports = ({ mode, presets } = { mode: "production", presets: [] }) => {
             test: /\.js$/,
             include: [
               path.resolve(__dirname, "src"),
-              path.resolve(__dirname, "node_modules/react-native-uncompiled")
+              path.resolve(__dirname, "node_modules/react-native-uncompiled"),
             ],
             use: {
               loader: "babel-loader",
               options: {
-                cacheDirectory: true
-              }
-            }
+                cacheDirectory: true,
+              },
+            },
           },
           {
             test: /\.(graphql|gql)$/,
@@ -31,19 +35,19 @@ module.exports = ({ mode, presets } = { mode: "production", presets: [] }) => {
             use: {
               loader: "gq-loader",
               options: {
-                url: "http://localhost:9001/graphql"
-              }
-            }
-          }
-        ]
+                url: "http://localhost:9001/graphql",
+              },
+            },
+          },
+        ],
       },
       output: {
-        filename: "bundle.js"
+        filename: "bundle.js",
       },
       plugins: [
         new HtmlWebpackPlugin({ template: "./src/index.html" }),
-        new webpack.ProgressPlugin()
-      ]
+        new webpack.ProgressPlugin(),
+      ],
     },
     modeConfig(mode),
     presetsConfig({ mode, presets })

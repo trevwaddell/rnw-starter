@@ -13,8 +13,8 @@ class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    padding: 5
-  }
+    padding: 5,
+  },
 });
 
 export default App;
