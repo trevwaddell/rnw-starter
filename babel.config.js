@@ -4,8 +4,8 @@ module.exports = {
     [
       "react-native-web",
       {
-        commonjs: true
-      }
+        commonjs: true,
+      },
     ],
     "@babel/plugin-proposal-class-properties",
     [
@@ -13,9 +13,9 @@ module.exports = {
       {
         root: ["./src"],
         alias: {
-          "^react-native$": "react-native-web"
-        }
-      }
-    ]
-  ]
+          "^react-native$": "react-native-web",
+        },
+      },
+    ],
+  ],
 };
